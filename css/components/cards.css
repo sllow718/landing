@@ -1,0 +1,122 @@
+/* Your card CSS file */
+.cards {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.card-category {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  /* image */
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://random.dog/054dce82-51c9-49d5-bc7c-4d76e8288d33.jpg");
+  /* font */
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  opacity: 0.9;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* .card-category img {
+  background-size: cover;
+} */
+
+.card-product {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+.card-product:hover {
+  background-color: rgb(213, 83, 83);
+  transition: 1s;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 992px) {
+  .card-product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    background-color: antiquewhite;
+    align-items: center;
+  }
+}
+.card-product img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-product-info {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0px 20px;
+}
+.card-product-info h2,
+.card-product-info p {
+  color: rgb(0, 0, 0);
+}
+
+.card-product-info h2:hover,
+.card-product-info p:hover {
+  color: rgb(228, 228, 228);
+}
+
+.card-product-info p {
+  font-size: 24px;
+}
+.card-trip {
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-trip div img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 500px;
+}
+
+#price {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 500px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.deets {
+  margin: 10px 5px;
+}
+
+.deets h2,
+.deets p {
+  padding: 5px;
+  margin: 5px 5px;
+}

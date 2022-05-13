@@ -1,0 +1,50 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;900&family=Space+Mono&display=swap");
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 30px auto;
+  gap: 10px;
+}
+/* Custom design below! */
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer .fas {
+  color: #bf0f12;
+}

@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  background-image: url("/images/potatobackground.png");
+  background-position: bottom;
+  /* width: 100%; */
+  position: relative;
+  height: 800px;
+  justify-content: center;
+  /* align-items: flex-start; */
+  flex-direction: column;
+  background-size: cover;
+  opacity: 1;
+  text-align: center;
+}
+
+.banner h1,
+.banner p {
+  /* position: absolute; */
+  background-color: rgba(100, 100, 100, 0.1);
+  color: rgb(255, 255, 255);
+  margin: 30px 100px;
+  flex-grow: 1;
+
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.banner h1 {
+  /* position: absolute; */
+  font-size: 80px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.banner p {
+  /* position: absolute; */
+  font-size: 30px;
+}
