@@ -76,8 +76,9 @@
   color: rgb(228, 228, 228);
 }
 
+.card-product-info h2,
 .card-product-info p {
-  font-size: 24px;
+  font-size: 16px;
 }
 .card-trip {
   display: flex;

@@ -1,6 +1,6 @@
 .banner {
   display: flex;
-  background-image: url("/images/potatobackground.png");
+  background-image: url("images/potatobackground.png");
   background-position: bottom;
   /* width: 100%; */
   position: relative;
